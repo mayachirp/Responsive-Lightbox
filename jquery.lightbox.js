@@ -108,7 +108,7 @@
                 plugin.image.width(iWidth).height(iHeight).css({
                     'top': ($(window).height() - plugin.image.outerHeight()) / 2 + 'px',
                     'left': ($(window).width() - plugin.image.outerWidth()) / 2 + 'px'
-                }).show();
+                }).fadeIn('fast');
                 plugin.locked = false;
             },
 
